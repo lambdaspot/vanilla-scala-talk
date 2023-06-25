@@ -13,5 +13,5 @@ object Versions {
   val ScalaTest            = "3.2.15"
   val Wiremock             = "3.0.0-beta-10"
   val Mockito              = "5.4.0"
-  val Iron                 = "2.1.0-15-753225-SNAPSHOT"
+  val Iron                 = "2.1.0-3-69fb90-SNAPSHOT"
 }
