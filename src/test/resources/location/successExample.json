@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "code": 200,
+    "message": "OK",
+    "details": []
+  },
+  "data": {
+    "locations": [
+      {
+        "location_id": "S12419",
+        "name": "Co-Op",
+        "distance": 0.0301,
+        "distance_unit": "mi",
+        "phone": "02078 394570",
+        "address": {
+          "postal_code": "WC2R 0RG",
+          "country": "GBR",
+          "city": "London",
+          "state": null,
+          "street": "456-459 Strand",
+          "latitude": 51.5083149,
+          "longitude": -0.1263478
+        },
+        "services": [
+          "Print in Store",
+          "Next day drop off",
+          "Next Day"
+        ],
+        "business_hours": [
+          {
+            "day_of_week": "Mon",
+            "open_time": "00:00",
+            "close_time": "23:59"
+          },
+          {
+            "day_of_week": "Tue",
+            "open_time": "00:00",
+            "close_time": "23:59"
+          },
+          {
+            "day_of_week": "Wed",
+            "open_time": "00:00",
+            "close_time": "23:59"
+          },
+          {
+            "day_of_week": "Thu",
+            "open_time": "00:00",
+            "close_time": "23:59"
+          },
+          {
+            "day_of_week": "Fri",
+            "open_time": "00:00",
+            "close_time": "23:59"
+          },
+          {
+            "day_of_week": "Sat",
+            "open_time": "00:00",
+            "close_time": "23:59"
+          },
+          {
+            "day_of_week": "Sun",
+            "open_time": "00:00",
+            "close_time": "23:59"
+          }
+        ]
+      },
+      {
+        "location_id": "S23765",
+        "name": "Tesco Metro",
+        "distance": 0.1799,
+        "distance_unit": "mi",
+        "phone": "0345 677 9173",
+        "address": {
+          "postal_code": "WC2E 9EQ",
+          "country": "GBR",
+          "city": "London",
+          "state": null,
+          "street": "22-25 Bedford Street",
+          "latitude": 51.51111,
+          "longitude": -0.12517
+        },
+        "services": [
+          "Print in Store",
+          "Packageless returns",
+          "Next day drop off",
+          "Next Day"
+        ],
+        "business_hours": [
+          {
+            "day_of_week": "Mon",
+            "open_time": "07:00",
+            "close_time": "22:00"
+          },
+          {
+            "day_of_week": "Tue",
+            "open_time": "07:00",
+            "close_time": "22:00"
+          },
+          {
+            "day_of_week": "Wed",
+            "open_time": "07:00",
+            "close_time": "22:00"
+          },
+          {
+            "day_of_week": "Thu",
+            "open_time": "07:00",
+            "close_time": "22:00"
+          },
+          {
+            "day_of_week": "Fri",
+            "open_time": "07:00",
+            "close_time": "22:00"
+          },
+          {
+            "day_of_week": "Sat",
+            "open_time": "07:00",
+            "close_time": "22:00"
+          },
+          {
+            "day_of_week": "Sun",
+            "open_time": "12:00",
+            "close_time": "18:00"
+          }
+        ]
+      },
+      {
+        "location_id": "S15011",
+        "name": "Crispins Food & Wine",
+        "distance": 0.3457,
+        "distance_unit": "mi",
+        "phone": "02072401624",
+        "address": {
+          "postal_code": "W1D 5EA",
+          "country": "GBR",
+          "city": "London",
+          "state": null,
+          "street": "90/92 Shaftesbury Avenue",
+          "latitude": 51.51215,
+          "longitude": -0.13129
+        },
+        "services": [
+          "Print in Store",
+          "Packageless returns",
+          "Next day drop off",
+          "Next Day"
+        ],
+        "business_hours": [
+          {
+            "day_of_week": "Mon",
+            "open_time": "10:00",
+            "close_time": "19:00"
+          },
+          {
+            "day_of_week": "Tue",
+            "open_time": "10:00",
+            "close_time": "19:00"
+          },
+          {
+            "day_of_week": "Wed",
+            "open_time": "10:00",
+            "close_time": "19:00"
+          },
+          {
+            "day_of_week": "Thu",
+            "open_time": "10:00",
+            "close_time": "19:00"
+          },
+          {
+            "day_of_week": "Fri",
+            "open_time": "10:00",
+            "close_time": "19:00"
+          },
+          {
+            "day_of_week": "Sat",
+            "open_time": "10:00",
+            "close_time": "19:00"
+          },
+          {
+            "day_of_week": "Sun",
+            "open_time": "10:00",
+            "close_time": "00:00"
+          }
+        ]
+      }
+    ]
+  }
+}

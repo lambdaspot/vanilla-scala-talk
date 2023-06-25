@@ -1,2 +1,2 @@
 # vanilla-scala-talk
-A skeleton web app structure, no framework, just set std lib and set of libraries
+A skeleton web app structure, no framework, just std lib and set of libraries

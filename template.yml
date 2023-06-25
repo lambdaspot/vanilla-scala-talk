@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Hello Vanilla Scala skeleton serverless application using AWS Lambda
+
+Mappings:
+  LambdaConfig:
+    ApiUrls:
+      LocationsApiUrl: https://sandbox-api.aftership.com/postmen/v3/locations
+
+Resources:
+  function:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: vanillaApp.jar
+      Handler: dev.lambdaspot.location.api.LocationController::apply
+      Runtime: java17
+      Description: Get carrier drop off locations
+      MemorySize: 1769
+      Timeout: 10
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - AWSLambda_ReadOnlyAccess
+        - AWSXrayWriteOnlyAccess
+        - AWSLambdaVPCAccessExecutionRole
+      Environment:
+        Variables:
+          LOCATIONS_API_URL: !FindInMap [LambdaConfig, ApiUrls, LocationsApiUrl]
+      Tracing: Active
+      Events:
+        Hello:
+          Type: Api
+          Properties:
+            Path: /locations
+            Method: GET

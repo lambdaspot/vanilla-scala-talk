@@ -1,0 +1,10 @@
+{
+  "data": {},
+  "meta": {
+    "code": 4155,
+    "message": "Access to shipper_account locked during manifest/cancel-label operation.",
+    "errors": [],
+    "type": "Processing error",
+    "retryable": true
+  }
+}

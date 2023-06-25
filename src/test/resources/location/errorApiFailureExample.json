@@ -1,0 +1,9 @@
+{
+  "data": {},
+  "meta": {
+    "code": 401,
+    "message": "The API key is invalid.",
+    "errors": [],
+    "type": "Unauthorized"
+  }
+}

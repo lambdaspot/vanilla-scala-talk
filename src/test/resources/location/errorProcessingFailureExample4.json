@@ -1,0 +1,10 @@
+{
+  "data": {},
+  "meta": {
+    "code": 4101,
+    "message": "Internal Error, please try again.",
+    "errors": [],
+    "type": "Processing error",
+    "retryable": true
+  }
+}

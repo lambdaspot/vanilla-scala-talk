@@ -1,0 +1,10 @@
+{
+  "data": {},
+  "meta": {
+    "code": 4153,
+    "message": "Item does not exist.",
+    "errors": [],
+    "type": "Processing error",
+    "retryable": false
+  }
+}

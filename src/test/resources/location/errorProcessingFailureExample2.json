@@ -1,0 +1,10 @@
+{
+  "data": {},
+  "meta": {
+    "code": 4161,
+    "message": "Your card is declined by payment gateway.",
+    "errors": [],
+    "type": "Processing error",
+    "retryable": false
+  }
+}
