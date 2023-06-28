@@ -5,16 +5,23 @@ import dev.lambdaspot.aws.lambda.events.ApiGatewayProxiedRequest
 import dev.lambdaspot.infrastructure.wrapper.jsoniter.*
 import org.scalatest.Assertions.fail
 import org.scalatest.funspec.AnyFunSpec
-import org.scalatest.{BeforeAndAfterAll, Inside, OptionValues, TryValues}
 import org.scalatest.matchers.should.Matchers
+import org.scalatest.*
 
 import scala.io.{Codec, Source}
 import scala.util.{Failure, Success, Try}
 
 package object lambdaspot {
 
-  class TestBase extends AnyFunSpec with BeforeAndAfterAll with TryValues with OptionValues with Matchers with Inside
-  
+  class TestBase
+      extends AnyFunSpec
+      with BeforeAndAfterAll
+      with TryValues
+      with OptionValues
+      with PartialFunctionValues
+      with Matchers
+      with Inside
+
   def getFixtureOrFail(resourcePath: String): String =
     getFixture(resourcePath)
       .getOrElse(fail("Failed to load test data"))

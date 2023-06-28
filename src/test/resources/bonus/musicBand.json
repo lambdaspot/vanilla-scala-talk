@@ -1,0 +1,55 @@
+{
+  "name": "Vader",
+  "members": [
+    {
+      "name": "Piotr Wiwczarek",
+      "instrument": "Vocals and Lead Guitar"
+    },
+    {
+      "name": "Marek Pająk",
+      "instrument": "Rhythm Guitar"
+    },
+    {
+      "name": "Tomasz Halicki",
+      "instrument": "Bass"
+    },
+    {
+      "name": "Michał Andrzejczyk",
+      "instrument": "Drums"
+    }
+  ],
+  "albums": [
+    {
+      "name": "The Ultimate Incantation",
+      "year": 1992,
+      "recordings": [
+        {
+          "name": "Dark Age",
+          "duration": 260,
+          "trackNumber": 1
+        },
+        {
+          "name": "Vicious Circle",
+          "duration": 253,
+          "trackNumber": 2
+        }
+      ]
+    },
+    {
+      "name": "De Profundis",
+      "year": 1995,
+      "recordings": [
+        {
+          "name": "Silent Empire",
+          "duration": 240,
+          "trackNumber": 1
+        },
+        {
+          "name": "Blood of Kingu",
+          "duration": 270,
+          "trackNumber": 2
+        }
+      ]
+    }
+  ]
+}
