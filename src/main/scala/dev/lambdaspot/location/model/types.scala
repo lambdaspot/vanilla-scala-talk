@@ -10,9 +10,9 @@ import dev.lambdaspot.infrastructure.wrapper.iron.validate
 
 /** Courier slug, a non-empty string */
 opaque type CourierSlug = String :| MinLength[1]
-object CourierSlug extends RefinedTypeOps[CourierSlug]
+object CourierSlug extends RefinedTypeOps.Transparent[CourierSlug]
 
 /** Country in ISO 3166-1 alpha 3 code */
 opaque type Country = String :| (LettersUpperCase & MinLength[3] & MaxLength[3])
-object Country extends RefinedTypeOps[Country]
+object Country extends RefinedTypeOps.Transparent[Country]
 

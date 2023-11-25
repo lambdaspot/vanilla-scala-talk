@@ -1,11 +1,11 @@
 package dev.lambdaspot.infrastructure.wrapper
 
-import io.github.iltotore.iron.{Constraint, RefinedTypeOpsImpl}
+import io.github.iltotore.iron.{Constraint, RefinedTypeOps}
 
 import scala.util.{Failure, Success, Try}
 
 object iron:
-  extension [A, C, T](ops: RefinedTypeOpsImpl[A, C, T])
+  extension [A, C, T](ops: RefinedTypeOps[A, C, T])
     /** Refine the given value at runtime, resulting in an [[Try]].
       *
       * @param constraint

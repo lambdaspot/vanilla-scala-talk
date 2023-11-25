@@ -2,14 +2,11 @@ package bonus.jsoniter
 
 import com.github.plokhotnyuk.jsoniter_scala.core.JsonValueCodec
 import com.github.plokhotnyuk.jsoniter_scala.macros.JsonCodecMaker
-import com.softwaremill.quicklens.*
 import dev.lambdaspot.infrastructure.wrapper.jsoniter.*
 import dev.lambdaspot.{TestBase, getFixtureOrFail}
 import io.github.iltotore.iron.*
 import io.github.iltotore.iron.constraint.all.*
 import io.github.iltotore.iron.jsoniter.makeCodec
-
-import scala.util.Try
 
 /** https://iltotore.github.io/iron/docs/overview.html */
 class JsonValidationWithIronExample extends TestBase {
@@ -50,17 +47,17 @@ final case class Recording(name: String, duration: AlbumDuration, trackNumber: T
 type MediumLength = MinLength[1] & MaxLength[50]
 
 opaque type BandMember = String :| (MediumLength DescribedAs "Band member should be of length between 1 and 50")
-object BandMember extends RefinedTypeOps[BandMember]:
+object BandMember extends RefinedTypeOps.Transparent[BandMember]:
   given JsonValueCodec[BandMember] = makeCodec
 
 opaque type Instrument = String :| MediumLength
-object Instrument extends RefinedTypeOps[Instrument]:
+object Instrument extends RefinedTypeOps.Transparent[Instrument]:
   given JsonValueCodec[Instrument] = makeCodec
 
 opaque type AlbumDuration = Int :| Positive
-object AlbumDuration extends RefinedTypeOps[AlbumDuration]:
+object AlbumDuration extends RefinedTypeOps.Transparent[AlbumDuration]:
   given JsonValueCodec[AlbumDuration] = makeCodec
 
 opaque type TrackNumber = Int :| Greater[0]
-object TrackNumber extends RefinedTypeOps[TrackNumber]:
+object TrackNumber extends RefinedTypeOps.Transparent[TrackNumber]:
   given JsonValueCodec[TrackNumber] = makeCodec
