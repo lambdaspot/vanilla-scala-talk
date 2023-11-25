@@ -1,15 +1,14 @@
 package dev
 
 import com.github.plokhotnyuk.jsoniter_scala.core.JsonValueCodec
-import dev.lambdaspot.aws.lambda.events.ApiGatewayProxiedRequest
 import dev.lambdaspot.infrastructure.wrapper.jsoniter.*
+import org.scalatest.*
 import org.scalatest.Assertions.fail
 import org.scalatest.funspec.AnyFunSpec
 import org.scalatest.matchers.should.Matchers
-import org.scalatest.*
 
 import scala.io.{Codec, Source}
-import scala.util.{Failure, Success, Try}
+import scala.util.Try
 
 package object lambdaspot {
 

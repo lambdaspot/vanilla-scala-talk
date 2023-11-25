@@ -9,9 +9,7 @@ import dev.lambdaspot.infrastructure.wrapper.sttp.ClientError
 import dev.lambdaspot.location.api.LocationControllerTest.*
 import dev.lambdaspot.{TestBase, getFixtureOrFail}
 import org.mockito.Mockito.mock
-import org.scalatest.funspec.AnyFunSpec
-import org.scalatest.matchers.should.Matchers
-import org.scalatest.{BeforeAndAfterAll, Inside, TryValues}
+import org.scalatest.Inside
 import sttp.model.StatusCode
 
 class LocationControllerTest extends TestBase {
