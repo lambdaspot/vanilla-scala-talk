@@ -11,7 +11,7 @@ object Versions {
   val Macwire              = "2.5.8"
   val AwsLambdaScalaBridge = "0.1.5"
   val ScalaTest            = "3.2.15"
-  val Wiremock             = "3.0.0-beta-10"
+  val Wiremock             = "3.3.1"
   val Mockito              = "5.4.0"
-  val Iron                 = "2.1.0-3-69fb90-SNAPSHOT"
+  val Iron                 = "2.2.0"
 }

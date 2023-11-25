@@ -20,7 +20,7 @@ libraryDependencies ++= Seq(
   "com.github.lambdaspot"                  % "aws-lambda-scala-bridge" % Versions.AwsLambdaScalaBridge,
   "org.scalatest"                         %% "scalatest"               % Versions.ScalaTest     % Test,
   "com.softwaremill.quicklens"            %% "quicklens"               % Versions.Quicklens     % Test,
-  "com.github.tomakehurst"                 % "wiremock"                % Versions.Wiremock      % Test,
+  "org.wiremock"                           % "wiremock"                % Versions.Wiremock      % Test,
   "org.mockito"                            % "mockito-core"            % Versions.Mockito       % Test,
   "io.github.iltotore"                    %% "iron"                    % Versions.Iron,
   "io.github.iltotore"                    %% "iron-jsoniter"           % Versions.Iron
