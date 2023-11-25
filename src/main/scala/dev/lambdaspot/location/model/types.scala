@@ -2,7 +2,6 @@ package dev.lambdaspot.location.model
 
 import io.github.iltotore.iron.*
 import io.github.iltotore.iron.constraint.all.*
-import dev.lambdaspot.infrastructure.wrapper.iron.validate
 
 /** Do you like the validation below? See more Iron examples in docs:
   * https://iltotore.github.io/iron/docs/reference/newtypes.html
